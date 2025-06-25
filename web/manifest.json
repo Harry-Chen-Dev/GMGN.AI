@@ -1,0 +1,35 @@
+{
+    "name": "GMGN.AI Clone",
+    "short_name": "GMGN Clone",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0B0E11",
+    "theme_color": "#00D4AA",
+    "description": "专业的加密货币交易和跟单平台",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
