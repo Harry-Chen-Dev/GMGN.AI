@@ -1,0 +1,65 @@
+name: gmgn_clone
+description: A Flutter Web application that replicates GMGN.AI mobile interface
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # HTTP requests
+  http: ^1.1.0
+  
+  # UI Components
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  flutter_screenutil: ^5.9.0
+  
+  # Animations
+  animations: ^2.0.8
+  lottie: ^2.7.0
+  shimmer: ^3.0.0
+  
+  # Layout
+  flutter_staggered_grid_view: ^0.7.0
+  carousel_slider: ^4.2.1
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  
+  # Charts (for crypto data visualization)
+  fl_chart: ^0.68.0
+  
+  # Utilities
+  intl: ^0.19.0
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+  
+  fonts:
+    - family: Geist
+      fonts:
+        - asset: assets/fonts/Geist-Regular.ttf
+        - asset: assets/fonts/Geist-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Geist-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Geist-Bold.ttf
+          weight: 700
